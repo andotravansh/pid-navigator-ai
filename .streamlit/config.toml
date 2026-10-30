@@ -1,0 +1,30 @@
+# P&ID Navigator theme and privacy-friendly defaults.
+# Tested on Streamlit 1.66; older releases may ignore newer theme options.
+
+[theme]
+base = "dark"
+primaryColor = "#22d3ee"
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#111a2e"
+textColor = "#e6edf7"
+borderColor = "#223052"
+baseRadius = "0.6rem"
+buttonRadius = "0.6rem"
+font = "Segoe UI Variable, Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif"
+headingFont = "Segoe UI Variable Display, Segoe UI Variable, Segoe UI, system-ui, sans-serif"
+codeFont = "Cascadia Mono, Consolas, Menlo, monospace"
+dataframeBorderColor = "#223052"
+dataframeHeaderBackgroundColor = "#16213a"
+linkColor = "#67e8f9"
+chartCategoricalColors = ["#22d3ee", "#3b82f6", "#34d399", "#fbbf24", "#a78bfa", "#f87171"]
+
+[theme.sidebar]
+backgroundColor = "#0a101f"
+secondaryBackgroundColor = "#111a2e"
+borderColor = "#223052"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
